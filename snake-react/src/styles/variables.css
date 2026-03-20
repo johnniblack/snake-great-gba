@@ -1,0 +1,40 @@
+:root {
+  /* GBA Body Colors */
+  --gba-body-top: #7B6DC4;
+  --gba-body-bot: #3E3880;
+  --gba-shoulder: #5A4E9A;
+  --gba-bezel: #14182A;
+  --gba-screen-bg: #060D0A;
+  --gba-dpad: #1C1830;
+  --gba-dpad-active: #302A50;
+  --gba-btn-a: #B81530;
+  --gba-btn-b: #2C1E7A;
+  --gba-sys-btn: #201C48;
+  --gba-sys-btn-text: #8880CC;
+  --gba-led: #FF3030;
+  --gba-logo: #B8B0E0;
+  --gba-speaker: #3A3470;
+
+  /* Screen content colors */
+  --screen-text: #C8E0A0;
+  --screen-dim: #4A6050;
+  --screen-accent: #32D74B;
+  --screen-red: #FF4040;
+  --screen-blue: #80C0FF;
+
+  /* Legacy canvas colors */
+  --bg: #060D0A;
+  --text: #C8E0A0;
+  --muted: #5A7060;
+  --dim: #2A3820;
+  --red: #FF3B30;
+  --green: #32D74B;
+  --card: #0E1A10;
+  --card2: #162018;
+  --border: #1A3020;
+  --border2: #243828;
+
+  --font-pixel: 'Press Start 2P', monospace;
+  --font-sora: 'Sora', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}

@@ -1,0 +1,35 @@
+.snakeIcon {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.snakeIconInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.sDot {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--green);
+}
+
+.sDot.head {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 18px #32D74BAA;
+}
+
+.sDot.food {
+  width: 28px;
+  height: 28px;
+  background: var(--red);
+  box-shadow: 0 0 16px #FF3B3099;
+}

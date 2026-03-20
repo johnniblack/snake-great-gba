@@ -1,0 +1,25 @@
+.statusBar {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 36px;
+  flex-shrink: 0;
+}
+
+.statusTime {
+  font-family: var(--font-sora);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.statusRight {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}

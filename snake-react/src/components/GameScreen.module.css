@@ -1,0 +1,82 @@
+.screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #060D0A;
+  padding: 4px 4px 0;
+}
+
+/* Score bar */
+.scoreBar {
+  width: 100%;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  gap: 5px;
+  flex-shrink: 0;
+}
+
+.label {
+  font-family: var(--font-pixel);
+  font-size: 6px;
+  color: #3A6040;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.scoreVal {
+  font-family: var(--font-pixel);
+  font-size: 9px;
+  color: #90D870;
+  letter-spacing: 1px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.levelVal {
+  font-family: var(--font-pixel);
+  font-size: 9px;
+  color: #F09040;
+  letter-spacing: 1px;
+}
+
+/* Canvas */
+.canvasWrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas {
+  display: block;
+  border: 1px solid #0E2014;
+  image-rendering: pixelated;
+}
+
+/* HS bar */
+.hsBar {
+  height: 22px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 2px;
+  flex-shrink: 0;
+}
+
+.hsLabel {
+  font-family: var(--font-pixel);
+  font-size: 6px;
+  color: #2A4830;
+}
+
+.hsVal {
+  font-family: var(--font-pixel);
+  font-size: 7px;
+  color: #4A7850;
+}
